@@ -117,3 +117,36 @@
   color: #161616cc;
   gap: 41px;
 }
+
+/* Footer section */
+
+.footer {
+  /* background-color: rgb(22, 22, 22); */
+  background-color: black;
+  text-align: center;
+  padding: 130px 380px;
+}
+
+.footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+.footer hr {
+  max-width: 1440px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 50px auto;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+.footer ul a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #b9b9b9;
+}
