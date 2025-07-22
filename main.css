@@ -55,18 +55,19 @@
 /* Upcoming Matches Section */
 .upcoming-matches {
   display: flex;
-  background-color: green;
   padding: 50px 0;
   gap: 50px;
+  margin-bottom: 90px;
 }
 .upcoming-matches-left {
-  width: 30%;
+  width: 25%;
   background-color: rgb(22, 22, 22);
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 30px;
   border-radius: 10px;
+  height: fit-content;
 }
 
 .upcoming-matches-left .btn-primary:nth-child(1),
@@ -76,6 +77,43 @@
 }
 
 .upcoming-matches-right {
-  background-color: yellow;
   flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* card styles */
+.upcoming-matches-right .card {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+}
+.upcoming-matches-right .card img {
+  height: 175px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.upcoming-matches-right .card .btn-primary {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 4px 16px;
+  font-weight: 500;
+}
+.upcoming-matches-right .card h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+.upcoming-matches-right .card .card-content {
+  padding: 20px;
+}
+
+.card-bottom {
+  display: flex;
+  color: #161616cc;
+  gap: 41px;
 }
